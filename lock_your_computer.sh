@@ -1,8 +1,6 @@
 #!/bin/sh
 # This program can be run on your colleague's computer to remind them to lock it when they step away.
 
-# pastable one liner
-# text="Please lock your computer when you step away"; osascript -e "set Volume 10"; say "$text"
 
 get_text() {
 	# language to push through audio
