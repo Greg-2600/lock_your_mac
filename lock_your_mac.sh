@@ -18,7 +18,7 @@ set_max_volume() {
 
 get_text_to_speech() {
 	# call osx 'say' and pass the text to speak aloud
-	say $(get_text) 
+	say "$(get_text)"
 }
 
 
@@ -28,7 +28,7 @@ main() {
 }
 
 
-while [ 1 ]; do
+while true; do
 	# wait 10.5 minutes
 	sleep 630 
 	# turn up the volume and speak a message
